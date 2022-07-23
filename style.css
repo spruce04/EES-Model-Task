@@ -1,0 +1,92 @@
+a {
+    color: gold;
+}
+
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #a7a4a4;
+  }
+
+.header {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+@media screen and (max-width: 775px) {
+    .header {
+        font-size: 20px;
+    }
+}
+
+.footer, .header {
+    color: #d4e0e5;
+    background-color: #5c94a4;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.descripText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.content {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: auto;
+    font-size: 20px;
+    width: 50%;
+    height: auto;
+    border: 8px solid white;
+}
+
+button {
+    width: 66px; 
+    color: #d4e0e5;
+    background-color: #5c94a4;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yearText {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
