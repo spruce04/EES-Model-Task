@@ -69,6 +69,7 @@ button {
     width: 66px; 
     color: #d4e0e5;
     background-color: #5c94a4;
+    margin-top: 12px;
 }
 
 .button {
@@ -89,4 +90,8 @@ button {
     justify-content: center;
     align-items: center;
     margin-top: auto;
+    font-size: larger;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bolder;
 }
