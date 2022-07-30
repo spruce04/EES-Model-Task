@@ -34,8 +34,28 @@ function imageDecide() {
   yearDisplay.innerHTML = year(slider.value);
   switch (slider.value) {
     case ('1'):
-      imageDisplay.innerHTML = `Diagrams go here.`;
+      imageDisplay.innerHTML = '<img src="./Images/Scene One.PNG" height="auto" width="95%">';
       break;
+    case ('2'):
+      imageDisplay.innerHTML = '<img src="./Images/Scene Two.PNG" height="auto" width="110%">';
+      break;
+    case ('3'):
+      imageDisplay.innerHTML = '<img src="./Images/Scene Three.PNG" height="auto" width="110%">';
+      break;
+    case ('4'):
+      imageDisplay.innerHTML = '<img src="./Images/Scene Four.PNG" height="auto" width="110%">';
+      break;
+    case ('5'):
+      imageDisplay.innerHTML = '<img src="./Images/Scene Five.PNG" height="auto" width="110%">';
+      break;
+    case ('6'):
+      imageDisplay.innerHTML = '<img src="./Images/Scene Six and Seven.PNG" height="auto" width="110%">';
+      break;
+    case ('7'):
+      imageDisplay.innerHTML = '<img src="./Images/Scene Six and Seven.PNG" height="auto" width="110%">';
+      break;
+    case ('8'):
+      imageDisplay.innerHTML = '<img src="./Images/Scene Final.PNG" height="auto" width="110%">';
 }}; 
 
 //determine text based on slider value
